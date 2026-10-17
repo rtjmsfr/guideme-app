@@ -54,12 +54,12 @@ flutter run
 
 ---
 
-## 🧠 AI Integration
+## AI Integration
 
-The AI features run in two separate backend services, not inside the Flutter app. The app calls them via HTTP:
+The AI runs in two separate backend services, not inside the Flutter app:
 
-* **Recommendations** — LightFM-based service
-* **Translation** — M2M-100-based service
+- **Recommendations** — [guideme-recsys](https://github.com/rtjmsfr/guideme-recsys) (LightFM)
+- **Translation** — [guideme-translator](https://github.com/rtjmsfr/guideme-translator) (M2M-100)
 
 ---
 ## 🗂 Directory Structure
